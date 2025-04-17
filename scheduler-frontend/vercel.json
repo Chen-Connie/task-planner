@@ -1,6 +1,6 @@
 {
-    "redirects": [
-      { "source": "/", "destination": "/today", "permanent": true }
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
   
