@@ -1,10 +1,9 @@
-// src/main.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"; 
 import AppLayout from "./AppLayout";
 import Today from "./pages/Today";
-import Search from "./pages/Search";
+import Upcoming from "./pages/Upcoming";
 
 import "./index.css";
 
@@ -13,8 +12,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<AppLayout />}>
+          <Route index element={<Navigate to="/today" replace />} /> {/* Add this line here */}
           <Route path="today" element={<Today />} />
-          <Route path="search" element={<Search />} />
+          <Route path="upcoming" element={<Upcoming />} />
         </Route>
       </Routes>
     </BrowserRouter>
