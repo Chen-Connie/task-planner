@@ -14,21 +14,13 @@
         "react-dom": "^18.3.1",
         "react-icons": "^4.12.0",
         "react-router-dom": "^6.30.0",
-        "recharts": "^2.15.3",
-        "source-map-js": "^1.2.1"
+        "recharts": "^2.15.3"
     },
     "devDependencies": {
-        "@rollup/plugin-node-resolve": "^16.0.1",
-        "@tailwindcss/postcss": "^4.1.4",
-        "@vitejs/plugin-react": "^4.4.0",
+        "@vitejs/plugin-react": "^4.2.1",
         "autoprefixer": "^10.4.21",
         "postcss": "^8.5.3",
         "tailwindcss": "^3.4.17",
-        "vite": "^5.4.18"
-    },
-    "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-    "main": "eslint.config.js",
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
+        "vite": "^5.0.12"
+    }
 }
