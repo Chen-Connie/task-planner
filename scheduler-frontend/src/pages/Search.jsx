@@ -134,7 +134,6 @@ const Search = () => {
   return (
     <div className="max-w-2xl mx-auto">
       <div className="mb-6">
-        <h2 className="text-2xl font-bold mb-3">Search Tasks</h2>
         <div className="relative">
           <input
             type="text"
