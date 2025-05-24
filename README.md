@@ -54,6 +54,8 @@ A modern, full-stack task management application built with **React**, **Firebas
 - **GitHub** - Version control and CI/CD
 
 ## Project Structure
+
+```
 task-planner/
 ├── scheduler-frontend/         
 │   ├── src/
@@ -75,6 +77,7 @@ task-planner/
 │   ├── package.json
 │   └── tailwind.config.js
 └── README.md
+```
 
 ## Getting Started
 
